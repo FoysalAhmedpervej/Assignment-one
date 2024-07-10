@@ -245,14 +245,15 @@ text-align: center;
     height: 299px;
     width: 1140px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    margin-top: 48pxpx;
+    margin-top: 80px;
 }
 .target-box>.box{
     height: 299px;
     padding: 40px;
     width: 364px;
+    margin-left: 40px;
 }
 .box>.icon{
     height: 56px;
@@ -283,15 +284,72 @@ text-align: center;
     text-align: left;
     color: rgb(13, 19, 33);
 }
-.boxs-1{
-    background: rgba(255, 76, 30, 0.05);
+.box-one{
+    background: rgba(255, 76, 30, 0.1);
     border-radius: 16px;
 }
-.box-2{
-    background: rgba(0, 76, 232, 0.05);
+.box-two{
+    background: rgba(0, 76, 232, 0.1);
     border-radius: 16px;
 }
-.box-3{
-    background: rgba(255, 223, 0, 0.05);
+.box-three{
+    background: rgba(255, 223, 0, 0.1);
     border-radius: 16px;
+}
+/* 5th container */
+.support-container{
+    margin-top: 150px;
+    height: 314px;
+    padding: 64px 48px;
+    width: 1140px;
+    background: rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4);
+    border-radius: 16px;
+    background-image: url("../assets/handshake.jpg");
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+}
+.support-texts{
+    height: 104px;
+    width: 730px;
+    margin: 32px auto;
+}
+.support-texts>h1{
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.support-texts>p{
+    width: 606px;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.support-form{
+    margin: 20px auto;
+    width: 700px;
+    height: 57px;
+}
+input{
+    height: 57px;
+    width: 548px;
+    border-radius: 8px;
+}
+input::placeholder{
+    padding-left: 30px;
+    font-family: Azeret Mono;
+}
+.btn-submit{
+    height: 60px;
+    width: 120px;
+    margin-left: 10px;
+    border-radius: 8px;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
 }
