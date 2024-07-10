@@ -12,7 +12,7 @@ nav{
 }
 
 .name>p{
-margin-left:150px ;
+margin-left:80px ;
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 26px;
@@ -36,6 +36,8 @@ font-weight: 100;
 width: 1440px;
 height: 652px;
 background-image: url("../assets/Hero-bg.png");
+background-color: rgb(0,0,0,0.2);
+background-blend-mode: overlay;
 }
 
 .header-container{
@@ -44,6 +46,9 @@ background-image: url("../assets/Hero-bg.png");
     align-items: center;
     justify-content:space-evenly;
     margin: 0 auto;
+}
+.header-container>.image{
+   margin-top: 15px;
 }
 
 
@@ -71,8 +76,8 @@ text-align: center;
     width: 852px;
     height: 52px;
     color: rgb(13, 19, 33);
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 17px;
+    font-weight: 600;
     font-family: Azeret Mono;
     text-align: center;
 
@@ -98,7 +103,7 @@ text-align: center;
     padding: 80px 97px;
     margin: 80px auto;
     align-content: center; 
-    background: rgba(13, 19, 33, 0.02);   
+    background: rgba(13, 19, 33, 0.1);   
     border-radius: 16px;
 }
 .web-dev-container{
@@ -128,7 +133,7 @@ text-align: center;
 .heading>p{
     font-family: Azeret Mono;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     color: rgb(13, 19, 33);
 }
@@ -237,7 +242,7 @@ text-align: center;
     width: 852px; 
     font-family: Azeret Mono;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     color: rgb(13, 19, 33);
 }
@@ -265,13 +270,12 @@ text-align: center;
     font-weight: 800;
     color: rgb(13, 19, 33);
     text-align: left;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 .texts>p{
     font-family: Azeret Mono;
     font-size: 16px;
-    font-weight: 400;
-    opacity: 0.7;
+    font-weight: 500;
     text-align: left;
     color: rgb(13, 19, 33);
 }
@@ -279,8 +283,6 @@ text-align: center;
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 700;
-    line-height: 26px;
-    letter-spacing: 0%;
     text-align: left;
     color: rgb(13, 19, 33);
 }
@@ -364,8 +366,8 @@ input::placeholder{
     width: 1440px;
     height: 60px;
     border-radius: 16px;
-    padding: 32px 150px;
-    background-color: rgba(13, 19, 33, 0.03);
+    padding: 32px 50px;
+    background-color: rgba(13, 19, 33, 0.1);
 
 }
 .bottom-nav{
@@ -389,10 +391,12 @@ input::placeholder{
 ul>li{
     list-style: none;
     display: inline-block;
+    margin-left: 30px;
+   
 }
 li>a>img{
     display: block;
     width: 36px;
     height: 36px;
-    gap: 50px;
+        
 }
