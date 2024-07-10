@@ -98,7 +98,7 @@ text-align: center;
 
 /* 2nd slide */
 .web-dev-parent{
-    width: 1140px;
+    width: 1440px;
     height: 1393px;
     padding: 80px 97px;
     margin: 80px auto;
@@ -181,13 +181,18 @@ text-align: center;
 }
 /* 3rd slide inspiration */
 .inspiration-container{
-    width: 1140px;
+    width: 1440px;
     height: 775px;
     margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0,0,0,0.1);
+    background-blend-mode: overlay;
 }
 .head-content{
-    height: 113px;
-    width: 852px;
+    width: 550;
     margin: 0 auto;
 }
 .head-content>h1{
@@ -217,18 +222,17 @@ text-align: center;
 }
 /* 4th slide-target */
 .target-container{
-    height: 460px;
-    width: 1140px;
+    width: 1440px;
     margin: 0 auto;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
 }
 .target-heading{
     width: 946px;
-    margin: 0 auto;
+   align-items: center;
 }
 .target-heading>h1{
     width: 852px;
@@ -239,7 +243,7 @@ text-align: center;
     text-align: center;
 }
 .target-heading>p{
-    width: 852px; 
+    width: 852px;
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 500;
@@ -250,9 +254,8 @@ text-align: center;
     height: 299px;
     width: 1140px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 .target-box>.box{
     height: 299px;
@@ -303,7 +306,7 @@ text-align: center;
     margin-top: 150px;
     height: 314px;
     padding: 64px 48px;
-    width: 1140px;
+    width: 1440px;
     background-color: rgba(0,0,0,0.5);
     border-radius: 16px;
     background-image: url("../assets/handshake.jpg");
