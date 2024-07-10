@@ -174,3 +174,39 @@ text-align: center;
     border-radius: 16px;
     margin-top: 15px;
 }
+/* 3rd slide inspiration */
+.inspiration-container{
+    width: 1140px;
+    height: 775px;
+    margin: 10px auto;
+}
+.head-content{
+    height: 113px;
+    width: 852px;
+    margin: 0 auto;
+}
+.head-content>h1{
+    width: 852px;
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 100;
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+.head-content>p{
+    width: 852px;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 100;
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+.inspiration-container>.video{
+    height: 614px;
+    border-radius: 16px;
+    padding:32px;
+    width: 1140px;
+}
+.video>iframe{
+    border-radius: 16px;
+}
